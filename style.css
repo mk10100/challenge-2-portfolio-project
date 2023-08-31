@@ -93,6 +93,19 @@ body {
   margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+  .work img {
+    flex: auto;
+    max-width: 100%;
+    margin: 5px 0;
+    margin-right: 0;
+  }
+
+  .work img:first-child {
+    margin-right: 0;
+  }
+}
+
 /* Contact */
 
 .contact {
